@@ -11,8 +11,8 @@ function MyApp({ Component, pageProps }) {
     useEffect(() => {
         if(process.env.NEXT_PUBLIC_MATOMO_ENABLE) {
             init({
-                url: process.env.NEXT_PUBLIC_MATOMO_URL,
-                siteId: process.env.NEXT_PUBLIC_MATOMO_SITEID,
+                url: JSON.parse(process.env.NEXT_PUBLIC_MATOMO_CON).url,
+                siteId: JSON.parse(process.env.NEXT_PUBLIC_MATOMO_CON).siteid,
                 excludeUrlsPatterns: [/^\/api/, /\?token=.+/],
             });
         }
