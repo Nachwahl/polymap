@@ -5,7 +5,6 @@ It is build using [Next.JS](https://nextjs.org/), [TailwindCSS](https://tailwind
 # Demo
 A demo is available on [https://map.bte-germany.de](https://map.bte-germany.de)
 
-
 # Deployment
 Deployment of PolyMap is pretty straightforward. You have two ways to host PolyMap.
 ## Requirements
@@ -18,6 +17,10 @@ Because PolyMap is build using Next.JS (which happens to be made by Vercel) it i
 
 ### 2. (Advanced) Build with ``yarn build``
 If you want to deploy your app to any hosting provider, that supports NodeJS or want to use your own server, you can build PolyMap using ``yarn build``. Learn more over [here](https://nextjs.org/docs/deployment#nodejs-server)
+
+# Minecraft Plugin
+To use PolyMap, you need to install [PolyMap-MC](https://github.com/Nachwahl/polymap-mc/) on your server.
+
 # Contribute
 If you find any bugs, errors or want to add a feature, feel free to fork the project and create a pull request :)
 Otherwise, you can create an issue [here](https://github.com/Nachwahl/polymap/issues).
