@@ -1,0 +1,38 @@
+{
+  "name": "map",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@agney/react-loading": "^0.1.2",
+    "@socialgouv/matomo-next": "^1.1.2",
+    "@tailwindcss/forms": "^0.2.1",
+    "algoliasearch": "^4.8.5",
+    "autoprefixer": "^10.2.4",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "framer-motion": "^3.3.0",
+    "leaflet": "^1.7.1",
+    "leaflet-defaulticon-compatibility": "^0.1.1",
+    "leaflet-geosearch": "^3.2.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "next": "10.0.6",
+    "next-auth": "^3.4.0",
+    "postcss": "^8.2.5",
+    "react": "17.0.1",
+    "react-autosuggest": "^10.1.0",
+    "react-dom": "17.0.1",
+    "react-instantsearch-dom": "^6.9.0",
+    "react-leaflet": "^3.1.0",
+    "react-leaflet-vectorgrid": "^2.2.1",
+    "react-moment": "^1.1.1",
+    "react-no-ssr": "^1.1.0",
+    "react-toastify": "^7.0.3",
+    "tailwindcss": "^2.0.3"
+  }
+}
