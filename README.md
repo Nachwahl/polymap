@@ -7,7 +7,7 @@ A demo is available on [https://map.bte-germany.de](https://map.bte-germany.de)
 
 
 # Deployment
-Deployment of PolyMap is pretty straightforward. You have to ways to host PolyMap.
+Deployment of PolyMap is pretty straightforward. You have two ways to host PolyMap.
 ## Requirements
 - [Vercel](https://vercel.com/) Account or NodeJS enabled webspace/server
 - [Algolia Account](https://www.algolia.com/)
