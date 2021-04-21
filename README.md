@@ -4,8 +4,13 @@ It is build using [Next.JS](https://nextjs.org/), [TailwindCSS](https://tailwind
 
 # Demo
 A demo is available on [https://map.bte-germany.de](https://map.bte-germany.de)
+
+
 # Deployment
 Deployment of PolyMap is pretty straightforward. You have to ways to host PolyMap.
+## Requirements
+- [Vercel](https://vercel.com/) Account or NodeJS enabled webspace/server
+- [Algolia Account](https://www.algolia.com/)
 ### 1. (Easy) Deploy with Vercel
 Because PolyMap is build using Next.JS (which happens to be made by Vercel) it is really easy to deploy it. Just click the button below and fill in the required information.
 
