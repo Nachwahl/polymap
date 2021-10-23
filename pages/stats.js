@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
+import Link from 'next/link'
+
 
 const stats = props => {
     const [regions, setRegions] = useState(null);
@@ -47,8 +49,21 @@ const stats = props => {
     }, []);
     return (
         <div className="h-screen w-screen bg-gray-900 flex justify-center items-center">
+
+
             <div className="w-3/4 h-2/3 bg-gray-800 text-white rounded-lg shadow-lg p-8 pt-10">
-                <h1 className="text-4xl font-bold">Stats</h1>
+                <div className={"flex items-center"}>
+                    <Link href={"/"}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             className="feather feather-arrow-left mt-2 mr-3">
+                            <line x1="19" y1="12" x2="5" y2="12"></line>
+                            <polyline points="12 19 5 12 12 5"></polyline>
+                        </svg>
+                    </Link>
+                    <h1 className="text-4xl font-bold">Stats</h1>
+                </div>
+
                 <hr className="border-2 rounded-full border-gray-700 my-2"/>
                 <div className="table w-full table-fixed">
                     <div className="table-row-group">
