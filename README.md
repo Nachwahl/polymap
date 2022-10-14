@@ -1,3 +1,5 @@
+‼️ **This is the old BTE Germany map. See the new one [here](https://github.com/BTE-Germany/map)**
+
 # PolyMap
 PolyMap is an open source polygon visualizer used by BTE Germany.
 It is build using [Next.JS](https://nextjs.org/), [TailwindCSS](https://tailwindcss.com/) and [React Leaflet](https://react-leaflet.js.org/).
